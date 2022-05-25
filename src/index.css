@@ -1,0 +1,59 @@
+body{
+    font-family:sans-serif;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1{
+    flex:1;
+}
+.col-2{
+    flex:2;
+}
+.block{
+    background-color: rgb(231, 181, 181);
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+.sign{
+    background-color:rgb(151, 157, 143);
+    padding: 0.5rem;
+    width: 4cm;
+    
+}
+.row.center{
+    align-items: center;
+}
+img.small{
+    max-height: 8rem;
+}
+button{
+    background-color: rgb(169, 169, 240);
+    padding: 0.2rem;
+    margin: 0.2rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    width: 3cm;
+}
+button.add{
+    background-color: brown;
+    width: 1.5rem;
+}
+button.remove{
+    background-color: black;
+    width: 1.5rem;
+}
+button.badge{
+    background-color: black;
+    border:none;
+    color: #ffffff;
+    width: 1.5rem;
+    
+}
+.text-right{
+    text-align:right;
+}
